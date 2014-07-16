@@ -20,7 +20,7 @@ Pretending we implemented the following methods, update this README with a descr
 
 
 * `max`
-Max searches an array and returns the smallest number.
+Max searches an array and returns the largest number.
 ```javascript
 var numbers = [4, 6, 8, 10];
 var largest = numbers.max;
