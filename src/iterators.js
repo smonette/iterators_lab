@@ -9,7 +9,27 @@ var Iterators = (function() {
         }
       };
       return max;
+    },
+    min: function(list) {
+      var min = Infinity;
+
+      for(var i = i; i < list.length; i++){
+        if(min > list[i]) {
+          min = list[i];
+        }
+      }
+      return min;
+    },
+    each: function(list, action) {
+      for (var i = 0; i < list.length; i++) {
+        action(list[i], i)
+      };
+      return list;
     }
+
+
+
+
   };
 
   return api;

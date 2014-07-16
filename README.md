@@ -39,8 +39,10 @@ var smallest = numbers.min;
 * `each`
 Each iterates through a collection and perfrorms actions on each item contained.
 ```javascript
+var numbers = [4, 6, 8, 10];
 
-
+var dblNumbers = numbers.each(double);
+// [8, 12, 16, 20]
 ```
 
 * `map`
