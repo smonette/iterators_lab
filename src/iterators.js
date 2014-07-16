@@ -29,6 +29,6 @@ var Iterators = (function() {
   };
 
   return api;
-})();
+})(); // If you add the braces to the end of your function, it will call it immediately.
 
 module.exports = Iterators;

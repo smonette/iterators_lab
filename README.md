@@ -16,25 +16,25 @@ Research the following term and summarize your findings on it two to three sente
 Higher order functions (aka Functional functions) are those that either take other functions as an argument; or return other functions. This can include: functions that create new functions; functions that alter other functions.
 
 
+
 Pretending we implemented the following methods, update this README with a description of each of the following and an example you've created:
 
 
 * `max`
-Max searches an array and returns the largest number.
+Max searches an array and returns the largest number in provided arguments. If none are provided, it will output `-Infinty`, to compare with future delcarations. `-Infinty` is basically a constant, that represents the smallest number possible. All numbers all bigger than it. `Math` isn't able to pass an array (the max in the homework will though).
+
+
 ```javascript
-var numbers = [4, 6, 8, 10];
-var largest = numbers.max;
+Math.max(4, 6, 8, 10);
 //10
 ```
 
 * `min`
 Min search an array and returns the smallest number.
 ```javascript
-var numbers = [4, 6, 8, 10];
-var smallest = numbers.min;
+Math.min(4, 6, 8, 10);
 // 4
 ```
-
 
 * `each`
 Each iterates through a collection and perfrorms actions on each item contained.
@@ -46,7 +46,7 @@ var dblNumbers = numbers.each(double);
 ```
 
 * `map`
-Map iterates through an array, performs a function to the items and them returns a value. It's an each with a return.
+Map iterates through an array, manipulating each of the items, and then returns a value. It's an each with a return.
 ```javascript
 var numbers = [4, 6, 8, 10];
 var double = function(x){
