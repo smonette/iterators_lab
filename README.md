@@ -44,7 +44,7 @@ Each iterates through a collection and perfrorms actions on each item contained.
 ```
 
 * `map`
-Map iterates through an array, performs a function to the items and them returns a value.
+Map iterates through an array, performs a function to the items and them returns a value. It's an each with a return.
 ```javascript
 var numbers = [4, 6, 8, 10];
 var double = function(x){
