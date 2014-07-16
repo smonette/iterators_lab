@@ -21,21 +21,42 @@ Pretending we implemented the following methods, update this README with a descr
 
 * `max`
 Max searches an array and returns the smallest number.
-var numbers = [4,6,8,10];
+```javascript
+var numbers = [4, 6, 8, 10];
 var largest = numbers.max();
 //10
+```
+
 * `min`
 Min search an array and returns the smallest number.
-var numbers = [4,6,8,10];
+```javascript
+var numbers = [4, 6, 8, 10];
 var smallest = numbers.max();
 // 4
+```
+
 
 * `each`
 
+
 * `map`
 Map iterates through an array, performs a function to the items and them returns a value.
+```javascript
+var numbers = [4, 6, 8, 10];
+var double = function(x){
+	x * 2;
+}
+
+var dblNumbers = numbers.map(double);
+// [8, 12, 16, 20]
+```
+
+
 * `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+Filter creates a new array of items that pass a certain condition.
+
 * `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+
 * `reject`: [note](http://underscorejs.org/#reject)
 
 Use the notes provided to help guide you explanation.
