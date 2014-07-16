@@ -22,4 +22,4 @@ var square = myNumbers.map(function(num) {
     return num * num;
 });
 
-// var sqrRoot = myNumbers.map(Math.sqrt);
+var sqrRoot = myNumbers.map(Math.sqrt);
