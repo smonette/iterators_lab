@@ -80,8 +80,15 @@ var singleValue = numbers.reduce;
 ```
 
 * `reject`: [note](http://underscorejs.org/#reject)
-Reject removes from an array values that don't match a condition.  
-
+Reject returns an array of values that don't match a given condition.  
+```javascript
+var numbers = [4, 6, 8, 10];
+var bigNumbers = function(x){
+	return x >= 7;
+}
+var bigOnly = numbers.reject(bigNumbers);
+// [4, 6]
+```
 
 
 Use the notes provided to help guide you explanation.
