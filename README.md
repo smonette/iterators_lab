@@ -86,7 +86,7 @@ var numbers = [4, 6, 8, 10];
 var bigNumbers = function(x){
 	return x >= 7;
 }
-var sma;;Only = numbers.reject(bigNumbers);
+var smallOnly = numbers.reject(bigNumbers);
 // [4, 6]
 ```
 
@@ -128,7 +128,17 @@ var sqrRoot = function(num) {
 var sqrNumbers = map(myNumbers, square);
 var absNumbers = map(sqrNumbers, sqrRoot);
 ```
+REFACTORED: [note](https://github.com/smonette/iterators_lab/blob/master/map_refactor.js)
 
+```
+var myNumbers = [ -1, 2, -3, 4, -5, 6];
+
+var square = myNumbers.map(function(num) {
+    return num * num;
+});
+
+var sqrRoot = myNumbers.map(Math.sqrt);
+```
 
 
 
