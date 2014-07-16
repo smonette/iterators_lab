@@ -86,7 +86,7 @@ var numbers = [4, 6, 8, 10];
 var bigNumbers = function(x){
 	return x >= 7;
 }
-var bigOnly = numbers.reject(bigNumbers);
+var sma;;Only = numbers.reject(bigNumbers);
 // [4, 6]
 ```
 
