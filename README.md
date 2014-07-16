@@ -13,14 +13,27 @@ Research the following term and summarize your findings on it two to three sente
 
 * `higher-order function`
 
+Higher order functions (aka Functional functions) are those that either take other functions as an argument; or return other functions. This can include: functions that create new functions; functions that alter other functions.
+
 
 Pretending we implemented the following methods, update this README with a description of each of the following and an example you've created:
 
 
 * `max`
+Max searches an array and returns the smallest number.
+var numbers = [4,6,8,10];
+var largest = numbers.max();
+//10
 * `min`
+Min search an array and returns the smallest number.
+var numbers = [4,6,8,10];
+var smallest = numbers.max();
+// 4
+
 * `each`
+
 * `map`
+Map iterates through an array, performs a function to the items and them returns a value.
 * `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 * `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 * `reject`: [note](http://underscorejs.org/#reject)
