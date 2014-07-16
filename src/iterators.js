@@ -3,7 +3,7 @@ var Iterators = (function() {
   var api = {
     max: function(numList){
       var max = -Infinity;
-      for (var i = 0; i < numList.length; i++) {
+      for (i = 0; i < numList.length; i++) {
         if ( numList[i] > max ) {
           max = numList[i];
         }
@@ -13,23 +13,19 @@ var Iterators = (function() {
     min: function(list) {
       var min = Infinity;
 
-      for(var i = i; i < list.length; i++){
-        if(min > list[i]) {
+     for (i = 0; i < list.length; i++) {
+        if (min > list[i]) {
           min = list[i];
         }
       }
       return min;
     },
     each: function(list, action) {
-      for (var i = 0; i < list.length; i++) {
+      for (i = 0; i < list.length; i++) {
         action(list[i], i)
       };
       return list;
     }
-
-
-
-
   };
 
   return api;
